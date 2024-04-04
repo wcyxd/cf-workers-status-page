@@ -37,3 +37,15 @@ monitors:
     url: 'https://blog.cloudflare.com/'
     method: GET
     expectStatus: 200
+
+  - id: gpt-render-com
+    name: Free GPT3.5 
+    url: 'https://gpt-axdm.onrender.com'
+    method: GET
+    expectStatus: 200  
+
+  - id: gpt-backup-render-com
+    name: Free GPT3.5 backup
+    url: 'https://gpt-backup.onrender.com
+    method: GET
+    expectStatus: 200 
